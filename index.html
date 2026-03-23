@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Veterinární klinika U Tří voříšků v Plzni – komplexní péče o vaše domácí mazlíčky. MVDr. Dagmar Caltová. Online rezervace." />
+  <title>U Tří voříšků – Veterinární klinika Plzeň</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-icon">🐾</span>
+        <span class="nav__logo-text">U Tří <strong>voříšků</strong></span>
+      </a>
+      <ul class="nav__list" id="navList">
+        <li><a href="#about" class="nav__link">O nás</a></li>
+        <li><a href="#services" class="nav__link">Služby</a></li>
+        <li><a href="#team" class="nav__link">Tým</a></li>
+        <li><a href="#hours" class="nav__link">Ordinační hodiny</a></li>
+        <li><a href="#contact" class="nav__link">Kontakt</a></li>
+        <li><a href="#booking" class="nav__link nav__link--cta">Rezervovat</a></li>
+      </ul>
+      <button class="nav__burger" id="navBurger" aria-label="Otevřít menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero__bg"></div>
+      <div class="container hero__content">
+        <span class="hero__badge">Veterinární klinika · Plzeň – Božkov</span>
+        <h1 class="hero__title">Péče, na které<br><span class="highlight">záleží</span></h1>
+        <p class="hero__subtitle">
+          Komplexní veterinární péče pro vaše domácí mazlíčky. Zkušený tým, moderní vybavení a přátelský přístup.
+        </p>
+        <div class="hero__actions">
+          <a href="#booking" class="btn btn--primary">Objednat se online</a>
+          <a href="#services" class="btn btn--outline">Naše služby</a>
+        </div>
+        <div class="hero__stats">
+          <div class="hero__stat">
+            <strong>15+</strong>
+            <span>let zkušeností</span>
+          </div>
+          <div class="hero__stat">
+            <strong>4 000+</strong>
+            <span>spokojených pacientů</span>
+          </div>
+          <div class="hero__stat">
+            <strong>6</strong>
+            <span>dnů v týdnu</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll">
+        <a href="#about" aria-label="Přejít dolů">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 10l5 5 5-5"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__visual">
+          <div class="about__image-wrap">
+            <div class="about__image-placeholder">
+              <svg viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="100" cy="100" r="100" fill="#e8f5e9"/>
+                <path d="M60 130 Q80 90 100 110 Q120 90 140 130" stroke="#4caf50" stroke-width="3" fill="none" stroke-linecap="round"/>
+                <circle cx="80" cy="95" r="12" fill="#81c784"/>
+                <circle cx="120" cy="95" r="12" fill="#81c784"/>
+                <ellipse cx="100" cy="145" rx="25" ry="15" fill="#a5d6a7"/>
+                <circle cx="100" cy="70" r="8" fill="#66bb6a"/>
+                <path d="M55 70 Q65 55 75 70" stroke="#4caf50" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+                <path d="M125 70 Q135 55 145 70" stroke="#4caf50" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="about__badge-float">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              Certifikovaná klinika
+            </div>
+          </div>
+        </div>
+        <div class="about__text">
+          <span class="section__label">O naší klinice</span>
+          <h2 class="section__title">Váš mazlíček v dobrých rukou</h2>
+          <p>Veterinární klinika <strong>U Tří voříšků</strong> poskytuje komplexní péči o domácí zvířata v Plzni – Božkově. Naší prioritou je zdraví a pohoda každého pacienta.</p>
+          <p>MVDr. Dagmar Caltová a její tým nabízejí moderní diagnostické a léčebné metody kombinující konvenční veterinární medicínu s alternativními přístupy, jako je akupunktura.</p>
+          <div class="about__features">
+            <div class="about__feature">
+              <div class="about__feature-icon">🔬</div>
+              <div>
+                <strong>Moderní laboratoř</strong>
+                <p>Výsledky vyšetření na místě</p>
+              </div>
+            </div>
+            <div class="about__feature">
+              <div class="about__feature-icon">🌿</div>
+              <div>
+                <strong>Alternativní medicína</strong>
+                <p>Akupunktura pro zvířata</p>
+              </div>
+            </div>
+            <div class="about__feature">
+              <div class="about__feature-icon">🏠</div>
+              <div>
+                <strong>Příjemné prostředí</strong>
+                <p>Stresuprostý zážitek pro vaše zvíře</p>
+              </div>
+            </div>
+            <div class="about__feature">
+              <div class="about__feature-icon">📞</div>
+              <div>
+                <strong>Pohotovostní linka</strong>
+                <p>V případě urgentních situací</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section section--alt" id="services">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Co nabízíme</span>
+          <h2 class="section__title">Naše veterinární služby</h2>
+          <p class="section__desc">Nabízíme široké spektrum veterinárních služeb pro komplexní péči o zdraví vašeho mazlíčka.</p>
+        </div>
+        <div class="services__grid">
+
+          <div class="service-card">
+            <div class="service-card__icon">💊</div>
+            <h3>Interní medicína</h3>
+            <p>Diagnostika a léčba vnitřních onemocnění, laboratorní vyšetření krve a moče, vakcinace a preventivní péče.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">🔪</div>
+            <h3>Chirurgie</h3>
+            <p>Kastrace, sterilizace, operace měkkých tkání, ortopedické výkony a tetování štěňat.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">🦷</div>
+            <h3>Stomatologie</h3>
+            <p>Dentální ošetření, odstraňování zubního kamene, extrakce zubů a péče o ústní zdraví zvířat.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">🐹</div>
+            <h3>Malí savci</h3>
+            <p>Specializovaná péče o králíky, morčata, fretky, činčily a další drobná zvířata.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">🌿</div>
+            <h3>Akupunktura</h3>
+            <p>Alternativní léčebná metoda vhodná při bolestech pohybového aparátu, neurologických problémech a chronických onemocněních.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">🧪</div>
+            <h3>Laboratoř & Diagnostika</h3>
+            <p>In-house laboratorní vyšetření, ultrazvuk a rychlá diagnostika pro přesné výsledky ihned.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">🛒</div>
+            <h3>Veterinární prodejna</h3>
+            <p>Kompletní krmiva, klinické diety, vitamíny, antiparazitární přípravky a veterinární potřeby.</p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">🕊️</div>
+            <h3>Paliativní péče</h3>
+            <p>Citlivý přístup v těžkých chvílích – paliativní léčba a humánní euthanasie se vší péčí a respektem.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team section" id="team">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Náš tým</span>
+          <h2 class="section__title">Zkušení odborníci</h2>
+        </div>
+        <div class="team__grid">
+          <div class="team-card">
+            <div class="team-card__avatar">
+              <div class="team-card__avatar-placeholder">DC</div>
+            </div>
+            <div class="team-card__info">
+              <h3>MVDr. Dagmar Caltová</h3>
+              <span class="team-card__role">Vedoucí veterinářka</span>
+              <p>Absolventka veterinární fakulty s více než 15 lety praxe. Specialistka na interní medicínu malých zvířat a akupunkturu.</p>
+              <div class="team-card__tags">
+                <span>Interní medicína</span>
+                <span>Akupunktura</span>
+                <span>Chirurgie</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOURS -->
+    <section class="hours section section--alt" id="hours">
+      <div class="container hours__grid">
+        <div class="hours__text">
+          <span class="section__label">Kdy nás navštívit</span>
+          <h2 class="section__title">Ordinační hodiny</h2>
+          <p>Jsme tu pro vás a vaše mazlíčky. V případě urgentní situace volejte na pohotovostní linku.</p>
+          <a href="tel:+420604283222" class="btn btn--primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.13.96.35 1.9.66 2.81a2 2 0 01-.45 2.11L6.07 7.78a16 16 0 006.13 6.13l1.14-1.14a2 2 0 012.11-.45c.91.31 1.85.53 2.81.66A2 2 0 0122 16.92z"/></svg>
+            +420 604 283 222
+          </a>
+        </div>
+        <div class="hours__table-wrap">
+          <table class="hours__table">
+            <thead>
+              <tr><th>Den</th><th>Dopoledne</th><th>Odpoledne</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><span class="day">Pondělí</span></td>
+                <td>8:00 – 12:00</td>
+                <td>13:00 – 17:00</td>
+              </tr>
+              <tr>
+                <td><span class="day">Úterý</span></td>
+                <td>8:00 – 12:00</td>
+                <td>13:00 – 17:00</td>
+              </tr>
+              <tr>
+                <td><span class="day">Středa</span></td>
+                <td>8:00 – 12:00</td>
+                <td>13:00 – 17:00</td>
+              </tr>
+              <tr>
+                <td><span class="day">Čtvrtek</span></td>
+                <td>8:00 – 12:00</td>
+                <td>13:00 – 17:00</td>
+              </tr>
+              <tr>
+                <td><span class="day">Pátek</span></td>
+                <td>8:00 – 12:00</td>
+                <td>13:00 – 16:00</td>
+              </tr>
+              <tr>
+                <td><span class="day">Sobota</span></td>
+                <td>8:00 – 12:00</td>
+                <td class="closed">Zavřeno</td>
+              </tr>
+              <tr class="closed-row">
+                <td><span class="day">Neděle</span></td>
+                <td colspan="2" class="closed">Zavřeno</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="hours__note">* Hodiny se mohou příležitostně lišit. Doporučujeme předem zavolat.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="booking section" id="booking">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Objednávkový systém</span>
+          <h2 class="section__title">Rezervujte si termín online</h2>
+          <p class="section__desc">Vyplňte formulář a my vás budeme kontaktovat pro potvrzení termínu do 24 hodin.</p>
+        </div>
+        <div class="booking__wrap">
+          <form class="booking__form" id="bookingForm" novalidate>
+
+            <div class="form__section">
+              <h3 class="form__section-title">
+                <span class="form__step">1</span> Výběr služby a termínu
+              </h3>
+              <div class="form__row">
+                <div class="form__group">
+                  <label for="service">Typ služby <span class="required">*</span></label>
+                  <select id="service" name="service" required>
+                    <option value="" disabled selected>Vyberte službu…</option>
+                    <optgroup label="Základní péče">
+                      <option value="preventive">Preventivní prohlídka & vakcinace</option>
+                      <option value="internal">Interní vyšetření</option>
+                      <option value="lab">Laboratorní vyšetření</option>
+                    </optgroup>
+                    <optgroup label="Chirurgie & Zubní péče">
+                      <option value="surgery">Chirurgický výkon</option>
+                      <option value="castration">Kastrace / Sterilizace</option>
+                      <option value="dental">Dentální ošetření</option>
+                      <option value="tartar">Odstranění zubního kamene</option>
+                    </optgroup>
+                    <optgroup label="Specializované služby">
+                      <option value="acupuncture">Akupunktura</option>
+                      <option value="small-mammals">Malí savci</option>
+                      <option value="other">Jiné</option>
+                    </optgroup>
+                  </select>
+                  <span class="form__error" id="serviceError"></span>
+                </div>
+                <div class="form__group">
+                  <label for="date">Preferovaný datum <span class="required">*</span></label>
+                  <input type="date" id="date" name="date" required />
+                  <span class="form__error" id="dateError"></span>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="form__group">
+                  <label for="time">Preferovaný čas <span class="required">*</span></label>
+                  <select id="time" name="time" required>
+                    <option value="" disabled selected>Vyberte čas…</option>
+                    <option value="08:00">08:00</option>
+                    <option value="08:30">08:30</option>
+                    <option value="09:00">09:00</option>
+                    <option value="09:30">09:30</option>
+                    <option value="10:00">10:00</option>
+                    <option value="10:30">10:30</option>
+                    <option value="11:00">11:00</option>
+                    <option value="11:30">11:30</option>
+                    <option value="13:00">13:00</option>
+                    <option value="13:30">13:30</option>
+                    <option value="14:00">14:00</option>
+                    <option value="14:30">14:30</option>
+                    <option value="15:00">15:00</option>
+                    <option value="15:30">15:30</option>
+                    <option value="16:00">16:00</option>
+                    <option value="16:30">16:30</option>
+                  </select>
+                  <span class="form__error" id="timeError"></span>
+                </div>
+                <div class="form__group">
+                  <label for="urgency">Naléhavost</label>
+                  <select id="urgency" name="urgency">
+                    <option value="routine">Běžná návštěva</option>
+                    <option value="soon">Co nejdříve (do 3 dnů)</option>
+                    <option value="urgent">Urgentní (dnes)</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="form__section">
+              <h3 class="form__section-title">
+                <span class="form__step">2</span> Informace o mazlíčkovi
+              </h3>
+              <div class="form__row">
+                <div class="form__group">
+                  <label for="petName">Jméno mazlíčka <span class="required">*</span></label>
+                  <input type="text" id="petName" name="petName" placeholder="Např. Rex" required />
+                  <span class="form__error" id="petNameError"></span>
+                </div>
+                <div class="form__group">
+                  <label for="petSpecies">Druh zvířete <span class="required">*</span></label>
+                  <select id="petSpecies" name="petSpecies" required>
+                    <option value="" disabled selected>Vyberte druh…</option>
+                    <option value="dog">Pes</option>
+                    <option value="cat">Kočka</option>
+                    <option value="rabbit">Králík</option>
+                    <option value="guinea-pig">Morče</option>
+                    <option value="ferret">Fretka</option>
+                    <option value="chinchilla">Činčila</option>
+                    <option value="bird">Pták</option>
+                    <option value="other">Jiné</option>
+                  </select>
+                  <span class="form__error" id="petSpeciesError"></span>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="form__group">
+                  <label for="petBreed">Plemeno / Rasa</label>
+                  <input type="text" id="petBreed" name="petBreed" placeholder="Např. Labrador" />
+                </div>
+                <div class="form__group">
+                  <label for="petAge">Věk zvířete</label>
+                  <input type="text" id="petAge" name="petAge" placeholder="Např. 3 roky" />
+                </div>
+              </div>
+              <div class="form__group">
+                <label for="symptoms">Popis problému / důvod návštěvy</label>
+                <textarea id="symptoms" name="symptoms" rows="3" placeholder="Popište zdravotní stav vašeho mazlíčka nebo důvod návštěvy…"></textarea>
+              </div>
+            </div>
+
+            <div class="form__section">
+              <h3 class="form__section-title">
+                <span class="form__step">3</span> Vaše kontaktní údaje
+              </h3>
+              <div class="form__row">
+                <div class="form__group">
+                  <label for="ownerName">Jméno a příjmení <span class="required">*</span></label>
+                  <input type="text" id="ownerName" name="ownerName" placeholder="Vaše jméno" required />
+                  <span class="form__error" id="ownerNameError"></span>
+                </div>
+                <div class="form__group">
+                  <label for="phone">Telefon <span class="required">*</span></label>
+                  <input type="tel" id="phone" name="phone" placeholder="+420 xxx xxx xxx" required />
+                  <span class="form__error" id="phoneError"></span>
+                </div>
+              </div>
+              <div class="form__row">
+                <div class="form__group">
+                  <label for="email">E-mail</label>
+                  <input type="email" id="email" name="email" placeholder="vas@email.cz" />
+                  <span class="form__error" id="emailError"></span>
+                </div>
+                <div class="form__group form__group--checkbox">
+                  <label class="checkbox-label">
+                    <input type="checkbox" id="firstVisit" name="firstVisit" />
+                    <span class="checkbox-custom"></span>
+                    Jsme zde poprvé
+                  </label>
+                </div>
+              </div>
+              <div class="form__group">
+                <label class="checkbox-label">
+                  <input type="checkbox" id="gdpr" name="gdpr" required />
+                  <span class="checkbox-custom"></span>
+                  Souhlasím se zpracováním osobních údajů dle <a href="#" class="link">zásad ochrany osobních údajů</a>. <span class="required">*</span>
+                </label>
+                <span class="form__error" id="gdprError"></span>
+              </div>
+            </div>
+
+            <div class="form__actions">
+              <button type="submit" class="btn btn--primary btn--large" id="submitBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                Odeslat rezervaci
+              </button>
+              <p class="form__note">Termín bude potvrzen telefonicky nebo e-mailem do 24 hodin.</p>
+            </div>
+          </form>
+
+          <!-- SUCCESS MESSAGE -->
+          <div class="booking__success" id="bookingSuccess" hidden>
+            <div class="booking__success-icon">✅</div>
+            <h3>Rezervace odeslána!</h3>
+            <p>Děkujeme za vaši rezervaci. Budeme vás kontaktovat do 24 hodin pro potvrzení termínu.</p>
+            <p>V případě urgentní situace volejte přímo na <a href="tel:+420604283222" class="link"><strong>+420 604 283 222</strong></a>.</p>
+            <button class="btn btn--outline" id="newBookingBtn">Nová rezervace</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section section--alt" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <span class="section__label">Kde nás najdete</span>
+          <h2 class="section__title">Kontakt</h2>
+
+          <div class="contact__items">
+            <div class="contact__item">
+              <div class="contact__item-icon">📍</div>
+              <div>
+                <strong>Adresa</strong>
+                <p>Barákova 732/59b<br>326 00 Plzeň – Božkov</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__item-icon">📞</div>
+              <div>
+                <strong>Telefon</strong>
+                <p><a href="tel:+420604283222" class="link">+420 604 283 222</a></p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__item-icon">✉️</div>
+              <div>
+                <strong>E-mail</strong>
+                <p><a href="mailto:utrivorisku@seznam.cz" class="link">utrivorisku@seznam.cz</a></p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__item-icon">🌐</div>
+              <div>
+                <strong>Web</strong>
+                <p><a href="https://www.utrivorisku.com" class="link" target="_blank" rel="noopener">www.utrivorisku.com</a></p>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://maps.google.com/?q=Bar%C3%A1kova+732%2F59b,+326+00+Plze%C5%88" target="_blank" rel="noopener" class="btn btn--outline">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Navigovat
+          </a>
+        </div>
+        <div class="contact__map">
+          <iframe
+            title="Mapa – U Tří voříšků"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2579.9!2d13.4235!3d49.7334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470af3f3f75e1c8d%3A0x8c4e1b2c3a5d6e7f!2sBar%C3%A1kova+732%2F59b%2C+326+00+Plze%C5%88!5e0!3m2!1scs!2scz!4v1700000000000"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo">🐾 U Tří voříšků</div>
+        <p>Veterinární klinika v Plzni. Komplexní péče o vaše domácí mazlíčky s láskou a odborností.</p>
+        <p class="footer__address">Barákova 732/59b, 326 00 Plzeň – Božkov</p>
+      </div>
+      <div class="footer__col">
+        <h4>Rychlé odkazy</h4>
+        <ul>
+          <li><a href="#about">O nás</a></li>
+          <li><a href="#services">Služby</a></li>
+          <li><a href="#team">Tým</a></li>
+          <li><a href="#hours">Ordinační hodiny</a></li>
+          <li><a href="#booking">Online rezervace</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+420604283222">+420 604 283 222</a></li>
+          <li><a href="mailto:utrivorisku@seznam.cz">utrivorisku@seznam.cz</a></li>
+        </ul>
+        <h4 style="margin-top:1.5rem;">Ordinační hodiny</h4>
+        <ul>
+          <li>Po–Čt: 8:00–17:00</li>
+          <li>Pá: 8:00–16:00</li>
+          <li>So: 8:00–12:00</li>
+          <li>Ne: Zavřeno</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2024 U Tří voříšků – MVDr. Dagmar Caltová. Všechna práva vyhrazena.</p>
+        <div class="footer__links">
+          <a href="#">Ochrana osobních údajů</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
